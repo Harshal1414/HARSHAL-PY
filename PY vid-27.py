@@ -1,6 +1,13 @@
-f = open("Harshal.txt", "rb")
+f = open("Harshal.txt", "rt")
 
-content = f.read()
-print(content)
+print(f.readlines())
+# print(f.readline())
+# print(f.readline())
+# print(f.readline())
+# content = f.read()
+# print(content)
 
-f.close()
+# for item in f:
+#     print(item, end="")
+
+# f.close()
